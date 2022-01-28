@@ -24,7 +24,7 @@ const UserForm = ({ initialUser, handleSubmit, buttonLabel }) => {
     //pass formData to handleSubmit prop function
     handleSubmit(formData);
     //push user back to main page
-    navigate("/user");
+    navigate("/");
   };
 
 
