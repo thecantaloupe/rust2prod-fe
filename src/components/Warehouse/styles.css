@@ -1,0 +1,17 @@
+div main{
+    text-align: left;
+}
+div main p{
+    margin: 0;
+}
+
+div main h3{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+div main h5{
+    margin-top: 10px;
+    font-weight: bold;
+}
+

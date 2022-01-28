@@ -1,0 +1,72 @@
+form.authForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div.email,div.password,div.confPass input{
+    width: 400px;
+}
+div.container input {
+    color: white;
+}
+
+button.auth,input.auth {
+  background: rgb(226,90,42);
+  border: 2px solid #272727;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    width: 600px;
+    height: 600px;
+    margin: 5em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    background: rgb(36, 50, 106);
+    background-size: 400% 400%;
+    height: auto;
+    padding: 5px;
+    
+}
+.card h3,label {
+    color: white;
+}
+
+.hf {
+    color: black;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* google button stolen style hehe */
+.auth {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+    border-radius: 2px ;
+    border: 2px solid transparent;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 10px 10px 0px;
+    font-weight: 500;
+    width: 300px;
+    margin: 2px;
+    text-overflow: ellipsis;
+}

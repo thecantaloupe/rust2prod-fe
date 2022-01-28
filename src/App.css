@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+nav a {
+  color: rgb(36,50,106);
+  font-weight: bold;
+}
+
+/* text formatting */
+main {
+  color: rgb(36,50,106);
+}
+div p {
+  color: black;
+  font-weight: 300;
+}
+
+/* button customizations */
+button{
+  background-color: grey;
+  border: 0.1rem solid black;
+}
+div input[type='submit'] {
+  background-color: grey;
+  border: 0.1rem solid black;
+}
